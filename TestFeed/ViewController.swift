@@ -8,10 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var lastId = 0
+    var lastSortingValue = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        NetworkService.shared.fetchSingleStockData(lastId: "none", lastSortingValue: "none") { (result) in
+            switch result{
+            case let .failure(error):
+                print(error)
+            
+            case let .success(feedInfo):
+                self.lastId = feedInfo.lastId
+            }
+        }
     }
 
 

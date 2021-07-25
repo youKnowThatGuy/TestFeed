@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		699A36CC26A862D600A65EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36CB26A862D600A65EC3 /* AppDelegate.swift */; };
 		699A36CE26A862D600A65EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36CD26A862D600A65EC3 /* SceneDelegate.swift */; };
-		699A36D026A862D600A65EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36CF26A862D600A65EC3 /* ViewController.swift */; };
 		699A36D326A862D600A65EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699A36D126A862D600A65EC3 /* Main.storyboard */; };
 		699A36D526A862D700A65EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699A36D426A862D700A65EC3 /* Assets.xcassets */; };
 		699A36D826A862D700A65EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699A36D626A862D700A65EC3 /* LaunchScreen.storyboard */; };
+		699A36E726A8857B00A65EC3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36E626A8857B00A65EC3 /* NetworkService.swift */; };
+		699A36EB26A887E700A65EC3 /* SessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36EA26A887E700A65EC3 /* SessionError.swift */; };
+		699A36EE26A88BB500A65EC3 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36ED26A88BB500A65EC3 /* ServerResponse.swift */; };
+		699A36F126AAA9FC00A65EC3 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36F026AAA9FC00A65EC3 /* ModuleBuilder.swift */; };
+		699A36F626AAAA6300A65EC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36F526AAAA6300A65EC3 /* MainViewController.swift */; };
+		699A36FA26AAAA7100A65EC3 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36F926AAAA7100A65EC3 /* MainPresenter.swift */; };
+		699A36FD26AABC9F00A65EC3 /* FeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A36FC26AABC9F00A65EC3 /* FeedViewCell.swift */; };
+		69A1C6AC26AAED1A00216B2C /* FeedShortViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1C6AB26AAED1A00216B2C /* FeedShortViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		699A36C826A862D600A65EC3 /* TestFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699A36CB26A862D600A65EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699A36CD26A862D600A65EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		699A36CF26A862D600A65EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		699A36D226A862D600A65EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		699A36D426A862D700A65EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699A36D726A862D700A65EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		699A36D926A862D700A65EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699A36E626A8857B00A65EC3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		699A36EA26A887E700A65EC3 /* SessionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionError.swift; sourceTree = "<group>"; };
+		699A36ED26A88BB500A65EC3 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		699A36F026AAA9FC00A65EC3 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		699A36F526AAAA6300A65EC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		699A36F926AAAA7100A65EC3 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		699A36FC26AABC9F00A65EC3 /* FeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewCell.swift; sourceTree = "<group>"; };
+		69A1C6AB26AAED1A00216B2C /* FeedShortViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedShortViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		699A36CA26A862D600A65EC3 /* TestFeed */ = {
 			isa = PBXGroup;
 			children = (
-				699A36CB26A862D600A65EC3 /* AppDelegate.swift */,
-				699A36CD26A862D600A65EC3 /* SceneDelegate.swift */,
-				699A36CF26A862D600A65EC3 /* ViewController.swift */,
+				699A36E926A887C500A65EC3 /* Model */,
+				699A36E126A86E3600A65EC3 /* Delegates */,
 				699A36D126A862D600A65EC3 /* Main.storyboard */,
 				699A36D426A862D700A65EC3 /* Assets.xcassets */,
+				699A36F426AAAA3400A65EC3 /* MainModule */,
 				699A36D626A862D700A65EC3 /* LaunchScreen.storyboard */,
 				699A36D926A862D700A65EC3 /* Info.plist */,
+				699A36E626A8857B00A65EC3 /* NetworkService.swift */,
+				699A36F026AAA9FC00A65EC3 /* ModuleBuilder.swift */,
 			);
 			path = TestFeed;
+			sourceTree = "<group>";
+		};
+		699A36E126A86E3600A65EC3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				699A36CD26A862D600A65EC3 /* SceneDelegate.swift */,
+				699A36CB26A862D600A65EC3 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		699A36E926A887C500A65EC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				699A36EA26A887E700A65EC3 /* SessionError.swift */,
+				699A36ED26A88BB500A65EC3 /* ServerResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		699A36F426AAAA3400A65EC3 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				699A36F526AAAA6300A65EC3 /* MainViewController.swift */,
+				699A36F926AAAA7100A65EC3 /* MainPresenter.swift */,
+				699A36FC26AABC9F00A65EC3 /* FeedViewCell.swift */,
+				69A1C6AB26AAED1A00216B2C /* FeedShortViewCell.swift */,
+			);
+			path = MainModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699A36D026A862D600A65EC3 /* ViewController.swift in Sources */,
+				699A36F626AAAA6300A65EC3 /* MainViewController.swift in Sources */,
+				699A36EB26A887E700A65EC3 /* SessionError.swift in Sources */,
+				699A36EE26A88BB500A65EC3 /* ServerResponse.swift in Sources */,
+				699A36FA26AAAA7100A65EC3 /* MainPresenter.swift in Sources */,
 				699A36CC26A862D600A65EC3 /* AppDelegate.swift in Sources */,
+				69A1C6AC26AAED1A00216B2C /* FeedShortViewCell.swift in Sources */,
+				699A36FD26AABC9F00A65EC3 /* FeedViewCell.swift in Sources */,
+				699A36F126AAA9FC00A65EC3 /* ModuleBuilder.swift in Sources */,
+				699A36E726A8857B00A65EC3 /* NetworkService.swift in Sources */,
 				699A36CE26A862D600A65EC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U7X5634U9;
 				INFOPLIST_FILE = TestFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U7X5634U9;
 				INFOPLIST_FILE = TestFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
